@@ -8,7 +8,6 @@ import Dropdown from "../dropdown/Dropdown";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
-  console.log(showNav);
 
   return (
     <nav className="navbar">
@@ -33,7 +32,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li
-              className="navbar__link-wrapper  navbar__dropdown"
+              className="navbar__link-wrapper "
               onClick={() => setShowNav(false)}
               onMouseEnter={() => setShowDropdown(true)}
               onMouseLeave={() => setShowDropdown(false)}
@@ -45,8 +44,8 @@ const Navbar = () => {
               >
                 Menú
               </NavLink>
+              {showDropdown && <Dropdown />}
             </li>
-            {showDropdown && <Dropdown />}
           </ul>
         </div>
 
