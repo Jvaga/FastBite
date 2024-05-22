@@ -1,0 +1,55 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/colors";
+
+.dropdown {
+  position: absolute;
+  top: 70px;
+  width: fit-content;
+  right: -35px;
+
+  @include respond(tab-land) {
+    display: none;
+  }
+  &__content {
+    display: none;
+  }
+
+  &__show {
+    background-color: map-get($background-color, primary-red);
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    animation: dropdownAnimation 0.5s ease;
+
+    li {
+      list-style-type: disc;
+      color: map-get($text-color, primary-white);
+      line-height: 2rem;
+      border-radius: 0.5rem;
+      margin-left: 1rem;
+      list-style-type: none;
+
+      &:hover {
+        background-color: map-get($background-color, primary-yellow);
+        transition: all 1s ease;
+        box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+        span {
+          color: map-get($text-color, primary-red);
+          padding: 0 0.5rem;
+        }
+      }
+    }
+    span {
+      color: map-get($text-color, primary-white);
+    }
+  }
+}
+
+@keyframes dropdownAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
