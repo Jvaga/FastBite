@@ -6,7 +6,7 @@
       "ingredients": "Sauerkraut, Smoked Sausage, Emmental Cheese, Mustard",
       "size": "30 cm",
       "price": 15000,
-      "img": "../assets/menu/pizza1.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "ingredients": "Potatoes, Pork Sausage, Onion, Gouda Cheese, Parsley",
       "size": "35 cm",
       "price": 18000,
-      "img": "../assets/menu/pizza2.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "ingredients": "Weisswurst Sausage, Sauerkraut, Mozzarella Cheese, Caramelized Onion",
       "size": "30 cm",
       "price": 16000,
-      "img": "../assets/menu/pizza3.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "ingredients": "Bratwurst Sausage, Pickles, Fried Onion, Cheddar Cheese",
       "size": "40 cm",
       "price": 20000,
-      "img": "../assets/menu/pizza4.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "ingredients": "Frankfurter Sausage, Pretzel, Mustard Sauce, Parmesan Cheese",
       "size": "35 cm",
       "price": 17000,
-      "img": "../assets/menu/pizza5.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "ingredients": "Ham, Plums, Blue Cheese, Spinach",
       "size": "35 cm",
       "price": 19000,
-      "img": "../assets/menu/pizza6.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
       "price": 16000,
-      "img": "../assets/menu/pizza7.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "ingredients": "White Sausage, Camembert Cheese, Apple, Caramelized Onion",
       "size": "40 cm",
       "price": 20000,
-      "img": "../assets/menu/pizza8.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "ingredients": "Asparagus, Brie Cheese, Mushrooms, Spinach, Tomato Sauce",
       "size": "30 cm",
       "price": 16000,
-      "img": "../assets/menu/pizza9.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "ingredients": "Frankfurter Sausage, Curry Sauce, Cauliflower, Onion",
       "size": "35 cm",
       "price": 17000,
-      "img": "../assets/menu/pizza10.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "ingredients": "Pork Sausage, Sauerkraut, Raclette Cheese, Mustard",
       "size": "40 cm",
       "price": 19000,
-      "img": "../assets/menu/pizza11.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "ingredients": "Bratwurst Sausage, Caramelized Onion, Gruyère Cheese, Parsley",
       "size": "30 cm",
       "price": 15000,
-      "img": "../assets/menu/pizza12.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "ingredients": "Bratwurst Sausage, Pickles, Mozzarella Cheese, Fried Onion",
       "size": "35 cm",
       "price": 18000,
-      "img": "../assets/menu/pizza13.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "ingredients": "White Sausage, Sauerkraut, Cheddar Cheese, Barbecue Sauce",
       "size": "40 cm",
       "price": 20000,
-      "img": "../assets/menu/pizza14.png"
+      "img": "../assets/pizza.png"
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
       "price": 16000,
-      "img": "../assets/menu/pizza15.png"
+      "img": "../assets/pizza.png"
     }
   ],
   "hamburgers": [
@@ -127,35 +127,35 @@
       "name": "Brat Burger",
       "ingredients": "Pork Meat, Sauerkraut, Mustard, Pickles",
       "price": 12000,
-      "img": "../assets/menu/hamburger1.png"
+      "img": "../assets/hamburger.png"
     },
     {
       "id": 2,
       "name": "Schnitzel Burger",
       "ingredients": "Chicken Schnitzel, Lettuce, Gouda Cheese, Cranberry Sauce",
       "price": 14000,
-      "img": "../assets/menu/hamburger2.png"
+      "img": "../assets/hamburger.png"
     },
     {
       "id": 3,
       "name": "Black Forest Burger",
       "ingredients": "Ham, Emmental Cheese, Mushrooms, Tomato Sauce",
       "price": 13000,
-      "img": "../assets/menu/hamburger3.png"
+      "img": "../assets/hamburger.png"
     },
     {
       "id": 4,
       "name": "Frankfurt Burger",
       "ingredients": "Frankfurter Sausage, Mozzarella Cheese, Fried Onion, Mustard Sauce",
       "price": 15000,
-      "img": "../assets/menu/hamburger4.png"
+      "img": "../assets/hamburger.png"
     },
     {
       "id": 5,
       "name": "Bavarian Burger",
       "ingredients": "White Sausage, Raclette Cheese, Spinach, Mustard Sauce",
       "price": 16000,
-      "img": "../assets/menu/hamburger5.png"
+      "img": "../assets/hamburger.png"
     }
   ],
   "hotdogs": [
@@ -164,35 +164,35 @@
       "name": "Currywurst Dog",
       "ingredients": "Currywurst Sausage, Curry Sauce, Fried Onion",
       "price": 8000,
-      "img": "../assets/menu/hotdog1.png"
+      "img": "../assets/hotdog.png"
     },
     {
       "id": 2,
       "name": "Berlin Dog",
       "ingredients": "Pork Sausage, Sauerkraut, Emmental Cheese, Mustard",
       "price": 9000,
-      "img": "../assets/menu/hotdog2.png"
+      "img": "../assets/hotdog.png"
     },
     {
       "id": 3,
       "name": "Bavarian Dog",
       "ingredients": "White Sausage, Gouda Cheese, Caramelized Onion, Mustard Sauce",
       "price": 10000,
-      "img": "../assets/menu/hotdog3.png"
+      "img": "../assets/hotdog.png"
     },
     {
       "id": 4,
       "name": "Munich Dog",
       "ingredients": "Smoked Sausage, Pickles, Mozzarella Cheese, Tomato Sauce",
       "price": 11000,
-      "img": "../assets/menu/hotdog4.png"
+      "img": "../assets/hotdog.png"
     },
     {
       "id": 5,
       "name": "Schnitzel Dog",
       "ingredients": "Chicken Schnitzel, Lettuce, Cheddar Cheese, Cranberry Sauce",
       "price": 12000,
-      "img": "../assets/menu/hotdog5.png"
+      "img": "../assets/hotdog.png"
     }
   ],
   "beverages": [
@@ -201,105 +201,105 @@
       "name": "Weißbier",
       "size": "500 ml",
       "price": 5000,
-      "img": "../assets/menu/beverage1.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 2,
       "name": "Apfelschorle",
       "size": "300 ml",
       "price": 3000,
-      "img": "../assets/menu/beverage2.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 3,
       "name": "Radler",
       "size": "500 ml",
       "price": 4000,
-      "img": "../assets/menu/beverage3.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 4,
       "name": "Erdbeerbowle",
       "size": "1 L",
       "price": 6000,
-      "img": "../assets/menu/beverage4.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 5,
       "name": "Glühwein",
       "size": "200 ml",
       "price": 3500,
-      "img": "../assets/menu/beverage5.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 6,
       "name": "Apfelwein",
       "size": "500 ml",
       "price": 4500,
-      "img": "../assets/menu/beverage6.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 7,
       "name": "Kirschsaft",
       "size": "300 ml",
       "price": 2500,
-      "img": "../assets/menu/beverage7.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 8,
       "name": "Holunderblütensirup",
       "size": "500 ml",
       "price": 3500,
-      "img": "../assets/menu/beverage8.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 9,
       "name": "Berliner Weiße",
       "size": "330 ml",
       "price": 2800,
-      "img": "../assets/menu/beverage9.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 10,
       "name": "Mate",
       "size": "500 ml",
       "price": 4000,
-      "img": "../assets/menu/beverage10.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 11,
       "name": "Rhubarb Juice",
       "size": "300 ml",
       "price": 3000,
-      "img": "../assets/menu/beverage11.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 12,
       "name": "Sekt",
       "size": "750 ml",
       "price": 5500,
-      "img": "../assets/menu/beverage12.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 13,
       "name": "Kölsch",
       "size": "500 ml",
       "price": 4000,
-      "img": "../assets/menu/beverage13.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 14,
       "name": "Herbal Liqueur",
       "size": "50 ml",
       "price": 2000,
-      "img": "../assets/menu/beverage14.png"
+      "img": "../assets/drinks.png"
     },
     {
       "id": 15,
       "name": "Wine Spritzer",
       "size": "500 ml",
       "price": 4500,
-      "img": "../assets/menu/beverage15.png"
+      "img": "../assets/drinks.png"
     }
   ]
 }
