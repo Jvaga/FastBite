@@ -7,6 +7,7 @@ interface ProviderProps {
 
 interface Pizza {
   id: number;
+  group: string;
   name: string;
   ingredients: string;
   size: string;
@@ -16,6 +17,7 @@ interface Pizza {
 
 interface Hamburger {
   id: number;
+  group: string;
   name: string;
   ingredients: string;
   price: number;
@@ -24,6 +26,7 @@ interface Hamburger {
 
 interface HotDog {
   id: number;
+  group: string;
   name: string;
   ingredients: string;
   price: number;
@@ -32,6 +35,7 @@ interface HotDog {
 
 interface Beverage {
   id: number;
+  group: string;
   name: string;
   size: string;
   price: number;
@@ -41,7 +45,7 @@ interface Beverage {
 interface Menu {
   pizzas: Pizza[];
   hamburgers: Hamburger[];
-  hotdogs: HotDog[];
+  hotdog: HotDog[];
   beverages: Beverage[];
 }
 

@@ -1,6 +1,6 @@
 import "./Hotdog.scss";
 import ProductCard from "../../components/cards/productCard/ProductCard";
-import { useDataProducts } from "../../context/productsContext";
+import { useDataProducts } from "../../context/ProductsContext";
 
 const Hotdog = () => {
   const data = useDataProducts();
@@ -9,7 +9,7 @@ const Hotdog = () => {
       hotdog{" "}
       <div>
         <div className="hotdog__grid">
-          {data.data.hotdogs.map((item, i) => (
+          {data.data.hotdog.map((item, i) => (
             <ProductCard
               key={i}
               id={item.id}
@@ -18,6 +18,7 @@ const Hotdog = () => {
               ingredients={item.ingredients}
               portions={""}
               price={item.price}
+              group={item.group}
             />
           ))}
         </div>

@@ -2,6 +2,7 @@
   "pizzas": [
     {
       "id": 1,
+      "group": "pizza",
       "name": "Sauerkraut Special",
       "ingredients": "Sauerkraut, Smoked Sausage, Emmental Cheese, Mustard",
       "size": "30 cm",
@@ -10,6 +11,7 @@
     },
     {
       "id": 2,
+      "group": "pizza",
       "name": "Kartoffel Deluxe",
       "ingredients": "Potatoes, Pork Sausage, Onion, Gouda Cheese, Parsley",
       "size": "35 cm",
@@ -18,6 +20,7 @@
     },
     {
       "id": 3,
+      "group": "pizza",
       "name": "Weisswurst Wonder",
       "ingredients": "Weisswurst Sausage, Sauerkraut, Mozzarella Cheese, Caramelized Onion",
       "size": "30 cm",
@@ -26,6 +29,7 @@
     },
     {
       "id": 4,
+      "group": "pizza",
       "name": "Bratwurst Blast",
       "ingredients": "Bratwurst Sausage, Pickles, Fried Onion, Cheddar Cheese",
       "size": "40 cm",
@@ -34,6 +38,7 @@
     },
     {
       "id": 5,
+      "group": "pizza",
       "name": "Pretzel Pizza",
       "ingredients": "Frankfurter Sausage, Pretzel, Mustard Sauce, Parmesan Cheese",
       "size": "35 cm",
@@ -42,6 +47,7 @@
     },
     {
       "id": 6,
+      "group": "pizza",
       "name": "Black Forest Feast",
       "ingredients": "Ham, Plums, Blue Cheese, Spinach",
       "size": "35 cm",
@@ -50,6 +56,7 @@
     },
     {
       "id": 7,
+      "group": "pizza",
       "name": "Berlin Breakfast",
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
@@ -58,6 +65,7 @@
     },
     {
       "id": 8,
+      "group": "pizza",
       "name": "Bavarian Breakfast",
       "ingredients": "White Sausage, Camembert Cheese, Apple, Caramelized Onion",
       "size": "40 cm",
@@ -66,6 +74,7 @@
     },
     {
       "id": 9,
+      "group": "pizza",
       "name": "German Garden",
       "ingredients": "Asparagus, Brie Cheese, Mushrooms, Spinach, Tomato Sauce",
       "size": "30 cm",
@@ -74,6 +83,7 @@
     },
     {
       "id": 10,
+      "group": "pizza",
       "name": "Frankfurt Fusion",
       "ingredients": "Frankfurter Sausage, Curry Sauce, Cauliflower, Onion",
       "size": "35 cm",
@@ -82,6 +92,7 @@
     },
     {
       "id": 11,
+      "group": "pizza",
       "name": "Munich Madness",
       "ingredients": "Pork Sausage, Sauerkraut, Raclette Cheese, Mustard",
       "size": "40 cm",
@@ -90,6 +101,7 @@
     },
     {
       "id": 12,
+      "group": "pizza",
       "name": "Black Forest Bratwurst",
       "ingredients": "Bratwurst Sausage, Caramelized Onion, Gruyère Cheese, Parsley",
       "size": "30 cm",
@@ -98,6 +110,7 @@
     },
     {
       "id": 13,
+      "group": "pizza",
       "name": "Berlin Bratwurst",
       "ingredients": "Bratwurst Sausage, Pickles, Mozzarella Cheese, Fried Onion",
       "size": "35 cm",
@@ -106,6 +119,7 @@
     },
     {
       "id": 14,
+      "group": "pizza",
       "name": "Bavarian Barbecue",
       "ingredients": "White Sausage, Sauerkraut, Cheddar Cheese, Barbecue Sauce",
       "size": "40 cm",
@@ -114,6 +128,7 @@
     },
     {
       "id": 15,
+      "group": "pizza",
       "name": "Berlin Breakfast",
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
@@ -124,6 +139,7 @@
   "hamburgers": [
     {
       "id": 1,
+      "group": "hamburger",
       "name": "Brat Burger",
       "ingredients": "Pork Meat, Sauerkraut, Mustard, Pickles",
       "price": 12000,
@@ -131,6 +147,7 @@
     },
     {
       "id": 2,
+      "group": "hamburger",
       "name": "Schnitzel Burger",
       "ingredients": "Chicken Schnitzel, Lettuce, Gouda Cheese, Cranberry Sauce",
       "price": 14000,
@@ -138,6 +155,7 @@
     },
     {
       "id": 3,
+      "group": "hamburger",
       "name": "Black Forest Burger",
       "ingredients": "Ham, Emmental Cheese, Mushrooms, Tomato Sauce",
       "price": 13000,
@@ -145,6 +163,7 @@
     },
     {
       "id": 4,
+      "group": "hamburger",
       "name": "Frankfurt Burger",
       "ingredients": "Frankfurter Sausage, Mozzarella Cheese, Fried Onion, Mustard Sauce",
       "price": 15000,
@@ -152,15 +171,17 @@
     },
     {
       "id": 5,
+      "group": "hamburger",
       "name": "Bavarian Burger",
       "ingredients": "White Sausage, Raclette Cheese, Spinach, Mustard Sauce",
       "price": 16000,
       "img": "../assets/hamburger.png"
     }
   ],
-  "hotdogs": [
+  "hotdog": [
     {
       "id": 1,
+      "group": "hotdog",
       "name": "Currywurst Dog",
       "ingredients": "Currywurst Sausage, Curry Sauce, Fried Onion",
       "price": 8000,
@@ -168,6 +189,7 @@
     },
     {
       "id": 2,
+      "group": "hotdog",
       "name": "Berlin Dog",
       "ingredients": "Pork Sausage, Sauerkraut, Emmental Cheese, Mustard",
       "price": 9000,
@@ -175,6 +197,7 @@
     },
     {
       "id": 3,
+      "group": "hotdog",
       "name": "Bavarian Dog",
       "ingredients": "White Sausage, Gouda Cheese, Caramelized Onion, Mustard Sauce",
       "price": 10000,
@@ -182,6 +205,7 @@
     },
     {
       "id": 4,
+      "group": "hotdog",
       "name": "Munich Dog",
       "ingredients": "Smoked Sausage, Pickles, Mozzarella Cheese, Tomato Sauce",
       "price": 11000,
@@ -189,6 +213,7 @@
     },
     {
       "id": 5,
+      "group": "hotdog",
       "name": "Schnitzel Dog",
       "ingredients": "Chicken Schnitzel, Lettuce, Cheddar Cheese, Cranberry Sauce",
       "price": 12000,
@@ -198,6 +223,7 @@
   "beverages": [
     {
       "id": 1,
+      "group": "beverages",
       "name": "Weißbier",
       "size": "500 ml",
       "price": 5000,
@@ -205,6 +231,7 @@
     },
     {
       "id": 2,
+      "group": "beverages",
       "name": "Apfelschorle",
       "size": "300 ml",
       "price": 3000,
@@ -212,6 +239,7 @@
     },
     {
       "id": 3,
+      "group": "beverages",
       "name": "Radler",
       "size": "500 ml",
       "price": 4000,
@@ -219,6 +247,7 @@
     },
     {
       "id": 4,
+      "group": "beverages",
       "name": "Erdbeerbowle",
       "size": "1 L",
       "price": 6000,
@@ -226,6 +255,7 @@
     },
     {
       "id": 5,
+      "group": "beverages",
       "name": "Glühwein",
       "size": "200 ml",
       "price": 3500,
@@ -233,6 +263,7 @@
     },
     {
       "id": 6,
+      "group": "beverages",
       "name": "Apfelwein",
       "size": "500 ml",
       "price": 4500,
@@ -240,6 +271,7 @@
     },
     {
       "id": 7,
+      "group": "beverages",
       "name": "Kirschsaft",
       "size": "300 ml",
       "price": 2500,
@@ -247,6 +279,7 @@
     },
     {
       "id": 8,
+      "group": "beverages",
       "name": "Holunderblütensirup",
       "size": "500 ml",
       "price": 3500,
@@ -254,6 +287,7 @@
     },
     {
       "id": 9,
+      "group": "beverages",
       "name": "Berliner Weiße",
       "size": "330 ml",
       "price": 2800,
@@ -261,6 +295,7 @@
     },
     {
       "id": 10,
+      "group": "beverages",
       "name": "Mate",
       "size": "500 ml",
       "price": 4000,
@@ -268,6 +303,7 @@
     },
     {
       "id": 11,
+      "group": "beverages",
       "name": "Rhubarb Juice",
       "size": "300 ml",
       "price": 3000,
@@ -275,6 +311,7 @@
     },
     {
       "id": 12,
+      "group": "beverages",
       "name": "Sekt",
       "size": "750 ml",
       "price": 5500,
@@ -282,6 +319,7 @@
     },
     {
       "id": 13,
+      "group": "beverages",
       "name": "Kölsch",
       "size": "500 ml",
       "price": 4000,
@@ -289,6 +327,7 @@
     },
     {
       "id": 14,
+      "group": "beverages",
       "name": "Herbal Liqueur",
       "size": "50 ml",
       "price": 2000,
@@ -296,6 +335,7 @@
     },
     {
       "id": 15,
+      "group": "beverages",
       "name": "Wine Spritzer",
       "size": "500 ml",
       "price": 4500,

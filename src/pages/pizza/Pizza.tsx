@@ -1,6 +1,6 @@
 import "./Pizza.scss";
 import ProductCard from "../../components/cards/productCard/ProductCard";
-import { useDataProducts } from "../../context/productsContext";
+import { useDataProducts } from "../../context/ProductsContext";
 
 const Pizza = () => {
   const data = useDataProducts();
@@ -18,6 +18,7 @@ const Pizza = () => {
               ingredients={item.ingredients}
               portions={""}
               price={item.price}
+              group={item.group}
             />
           ))}
         </div>
