@@ -10,6 +10,7 @@ type CartItem = {
   price: number;
   group: string;
   name: string;
+  img: string;
 };
 
 type ShoppingCartContext = {
@@ -18,7 +19,8 @@ type ShoppingCartContext = {
     id: number,
     price: number,
     group: string,
-    name: string
+    name: string,
+    img: string
   ) => void;
   decreaseCartQuantity: (id: number, group: string) => void;
   removeFromCart: (id: number, group: string) => void;
@@ -61,14 +63,15 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     id: number,
     price: number,
     group: string,
-    name: string
+    name: string,
+    img: string
   ) {
     setCartItems((currentItems) => {
       if (
         currentItems.find((item) => item.id === id && item.group === group) ==
         null
       ) {
-        return [...currentItems, { id, quantity: 1, price, group, name }];
+        return [...currentItems, { id, quantity: 1, price, group, name, img }];
       } else {
         return currentItems.map((item) => {
           if (item.id === id && item.group === group) {

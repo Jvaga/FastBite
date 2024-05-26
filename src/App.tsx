@@ -11,6 +11,7 @@ import Navbar from "./components/navbar/Navbar";
 import { ProviderProducts } from "./context/ProductsContext";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import ShoppingCart from "./components/shoppingCart/ShoppingCart";
+import CanvasShopping from "./components/canvasShopping/CanvasShopping";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             </Routes>
           </div>
           <ShoppingCart />
+          <CanvasShopping />
         </ShoppingCartProvider>
       </ProviderProducts>
     </section>

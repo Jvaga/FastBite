@@ -1,4 +1,5 @@
 @import "../../../styles/mixins.scss";
+@import "../../../styles/colors";
 
 .card {
   padding: 0;
@@ -11,7 +12,7 @@
   }
 
   &__container {
-    background-color: #f1ebcb;
+    background-color: map-get($background-color, primary-beige);
     padding: 0;
     height: fit-content;
     border-radius: 0.5rem;
@@ -33,7 +34,6 @@
   img {
     width: 100%;
     aspect-ratio: 1/1;
-    background-color: aqua;
     object-fit: cover;
     border-radius: 0.5rem 0 0.5rem 0;
   }
@@ -75,7 +75,7 @@
     padding-block: 0.5rem;
 
     button {
-      background-color: #590223;
+      background-color: map-get($background-color, primary-red);
       display: flex;
       width: fit-content;
       justify-content: center;
@@ -83,7 +83,7 @@
       padding: 0.2rem;
       border-radius: 0.5rem;
       width: 2rem;
-      color: #f1c231;
+      color: map-get($text-color, primary-yellow);
     }
   }
   &__control-btn {

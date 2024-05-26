@@ -57,7 +57,8 @@ const ProductCard = (props: CardProps) => {
                   props.id,
                   props.price,
                   props.group,
-                  props.name
+                  props.name,
+                  props.img
                 )
               }
             >
