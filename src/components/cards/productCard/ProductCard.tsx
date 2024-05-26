@@ -68,7 +68,7 @@ const ProductCard = (props: CardProps) => {
             <NavLink
               className={"card__link"}
               onClick={() => window.scrollTo(0, 0)}
-              to={`/product-view/${props.id}`}
+              to={`/product-view/${props.group}/${props.id}`}
             >
               <p>See more...</p>
             </NavLink>

@@ -1,0 +1,75 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/colors";
+
+.shoppingCart {
+  width: fit-content;
+  height: fit-content;
+  position: -webkit-sticky;
+  position: sticky;
+  left: calc(100% - 100px);
+  bottom: 30px;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+
+  @include respond(phone) {
+    left: calc(100% - 80px);
+  }
+
+  &__cart {
+    width: 3rem;
+    height: fit-content;
+    background-color: map-get($background-color, primary-yellow);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+  }
+
+  &__quantity {
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: map-get($background-color, primary-white);
+    border: solid 1px;
+    padding: 4px;
+    border-radius: 1rem;
+    translate: 160% -40%;
+    text-align: center;
+  }
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}

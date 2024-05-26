@@ -22,7 +22,7 @@ type ShoppingCartContext = {
   ) => void;
   decreaseCartQuantity: (id: number, group: string) => void;
   removeFromCart: (id: number, group: string) => void;
-  OpenCart: () => void;
+  OpenCart: (open: boolean) => void;
   removeAllFromCart: () => void;
   cartQuantity: number;
   cartItems: CartItem[];

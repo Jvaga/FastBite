@@ -10,6 +10,7 @@ import Drink from "./pages/drink/Drink";
 import Navbar from "./components/navbar/Navbar";
 import { ProviderProducts } from "./context/ProductsContext";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import ShoppingCart from "./components/shoppingCart/ShoppingCart";
 
 function App() {
   return (
@@ -25,9 +26,10 @@ function App() {
               <Route path="hotdog" element={<Hotdog />} />
               <Route path="pizza" element={<Pizza />} />
               <Route path="drink" element={<Drink />} />
-              <Route path="product-view/:id" element={<ProductView />} />
+              <Route path="product-view/:group/:id" element={<ProductView />} />
             </Routes>
           </div>
+          <ShoppingCart />
         </ShoppingCartProvider>
       </ProviderProducts>
     </section>
