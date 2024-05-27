@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hamburger",
+    "img": "../assets/hamburger.png",
+    "link": "../hamburger"
+  },
+  {
+    "name": "Hotdog",
+    "img": "../assets/hotdog.png",
+    "link": "../hotdog"
+  },
+  {
+    "name": "Pizza",
+    "img": "../assets/pizza.png",
+    "link": "../pizza"
+  },
+  {
+    "name": "beverages",
+    "img": "../assets/drinks.png",
+    "link": "../drink"
+  }
+]

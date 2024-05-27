@@ -1,0 +1,23 @@
+@import "../styles/mixins.scss";
+@import "../styles/colors";
+
+.menuProducts {
+  &__product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: map-get($text-color, primary-black);
+    align-items: center;
+    margin-block: 1rem 2rem;
+  }
+
+  img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    @include respond(phone) {
+      width: 60%;
+    }
+  }
+}
