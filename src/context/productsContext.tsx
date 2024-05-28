@@ -1,11 +1,11 @@
 import { createContext, useContext } from "react";
 import dataProducts from "../data/data-products.json";
 
-interface ProviderProps {
+export interface ProviderProps {
   children: React.ReactNode;
 }
 
-interface Pizza {
+export interface Pizza {
   id: number;
   group: string;
   name: string;
@@ -15,41 +15,44 @@ interface Pizza {
   img: string;
 }
 
-interface Hamburger {
+export interface Hamburger {
   id: number;
   group: string;
   name: string;
   ingredients: string;
-  price: number;
-  img: string;
-}
-
-interface HotDog {
-  id: number;
-  group: string;
-  name: string;
-  ingredients: string;
-  price: number;
-  img: string;
-}
-
-interface Beverage {
-  id: number;
-  group: string;
-  name: string;
   size: string;
   price: number;
   img: string;
 }
 
-interface Menu {
+export interface HotDog {
+  id: number;
+  group: string;
+  name: string;
+  ingredients: string;
+  size: string;
+  price: number;
+  img: string;
+}
+
+export interface Beverage {
+  id: number;
+  group: string;
+  name: string;
+  ingredients: string;
+  size: string;
+  price: number;
+  img: string;
+}
+
+export interface Menu {
   pizzas: Pizza[];
   hamburgers: Hamburger[];
   hotdog: HotDog[];
   beverages: Beverage[];
 }
 
-interface Value {
+export interface Value {
   data: Menu;
 }
 

@@ -142,6 +142,7 @@
       "group": "hamburger",
       "name": "Brat Burger",
       "ingredients": "Pork Meat, Sauerkraut, Mustard, Pickles",
+      "size": "",
       "price": 12000,
       "img": "../assets/hamburger.png"
     },
@@ -150,6 +151,7 @@
       "group": "hamburger",
       "name": "Schnitzel Burger",
       "ingredients": "Chicken Schnitzel, Lettuce, Gouda Cheese, Cranberry Sauce",
+      "size": "",
       "price": 14000,
       "img": "../assets/hamburger.png"
     },
@@ -158,6 +160,7 @@
       "group": "hamburger",
       "name": "Black Forest Burger",
       "ingredients": "Ham, Emmental Cheese, Mushrooms, Tomato Sauce",
+      "size": "",
       "price": 13000,
       "img": "../assets/hamburger.png"
     },
@@ -166,6 +169,7 @@
       "group": "hamburger",
       "name": "Frankfurt Burger",
       "ingredients": "Frankfurter Sausage, Mozzarella Cheese, Fried Onion, Mustard Sauce",
+      "size": "",
       "price": 15000,
       "img": "../assets/hamburger.png"
     },
@@ -174,6 +178,7 @@
       "group": "hamburger",
       "name": "Bavarian Burger",
       "ingredients": "White Sausage, Raclette Cheese, Spinach, Mustard Sauce",
+      "size": "",
       "price": 16000,
       "img": "../assets/hamburger.png"
     }
@@ -184,6 +189,7 @@
       "group": "hotdog",
       "name": "Currywurst Dog",
       "ingredients": "Currywurst Sausage, Curry Sauce, Fried Onion",
+      "size": "",
       "price": 8000,
       "img": "../assets/hotdog.png"
     },
@@ -192,6 +198,7 @@
       "group": "hotdog",
       "name": "Berlin Dog",
       "ingredients": "Pork Sausage, Sauerkraut, Emmental Cheese, Mustard",
+      "size": "",
       "price": 9000,
       "img": "../assets/hotdog.png"
     },
@@ -200,6 +207,7 @@
       "group": "hotdog",
       "name": "Bavarian Dog",
       "ingredients": "White Sausage, Gouda Cheese, Caramelized Onion, Mustard Sauce",
+      "size": "",
       "price": 10000,
       "img": "../assets/hotdog.png"
     },
@@ -208,6 +216,7 @@
       "group": "hotdog",
       "name": "Munich Dog",
       "ingredients": "Smoked Sausage, Pickles, Mozzarella Cheese, Tomato Sauce",
+      "size": "",
       "price": 11000,
       "img": "../assets/hotdog.png"
     },
@@ -216,6 +225,7 @@
       "group": "hotdog",
       "name": "Schnitzel Dog",
       "ingredients": "Chicken Schnitzel, Lettuce, Cheddar Cheese, Cranberry Sauce",
+      "size": "",
       "price": 12000,
       "img": "../assets/hotdog.png"
     }
@@ -223,120 +233,135 @@
   "beverages": [
     {
       "id": 1,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Weißbier",
+      "ingredients": "",
       "size": "500 ml",
       "price": 5000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 2,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Apfelschorle",
+      "ingredients": "",
       "size": "300 ml",
       "price": 3000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 3,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Radler",
+      "ingredients": "",
       "size": "500 ml",
       "price": 4000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 4,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Erdbeerbowle",
+      "ingredients": "",
       "size": "1 L",
       "price": 6000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 5,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Glühwein",
+      "ingredients": "",
       "size": "200 ml",
       "price": 3500,
       "img": "../assets/drinks.png"
     },
     {
       "id": 6,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Apfelwein",
+      "ingredients": "",
       "size": "500 ml",
       "price": 4500,
       "img": "../assets/drinks.png"
     },
     {
       "id": 7,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Kirschsaft",
+      "ingredients": "",
       "size": "300 ml",
       "price": 2500,
       "img": "../assets/drinks.png"
     },
     {
       "id": 8,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Holunderblütensirup",
+      "ingredients": "",
       "size": "500 ml",
       "price": 3500,
       "img": "../assets/drinks.png"
     },
     {
       "id": 9,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Berliner Weiße",
+      "ingredients": "",
       "size": "330 ml",
       "price": 2800,
       "img": "../assets/drinks.png"
     },
     {
       "id": 10,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Mate",
+      "ingredients": "",
       "size": "500 ml",
       "price": 4000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 11,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Rhubarb Juice",
+      "ingredients": "",
       "size": "300 ml",
       "price": 3000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 12,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Sekt",
+      "ingredients": "",
       "size": "750 ml",
       "price": 5500,
       "img": "../assets/drinks.png"
     },
     {
       "id": 13,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Kölsch",
+      "ingredients": "",
       "size": "500 ml",
       "price": 4000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 14,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Herbal Liqueur",
+      "ingredients": "",
       "size": "50 ml",
       "price": 2000,
       "img": "../assets/drinks.png"
     },
     {
       "id": 15,
-      "group": "beverages",
+      "group": "beverage",
       "name": "Wine Spritzer",
+      "ingredients": "",
       "size": "500 ml",
       "price": 4500,
       "img": "../assets/drinks.png"
