@@ -2,6 +2,7 @@ import "./ProductShoppingCard.scss";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useShoppingCart } from "../../../context/ShoppingCartContext";
+import { CURRENCY_FORMATTER } from "../../../utilities/formatCurrency";
 
 interface CardShopingCartProps {
   id: number;
@@ -10,6 +11,7 @@ interface CardShopingCartProps {
   price: number;
   group: string;
   img: string;
+  bestseller: boolean;
 }
 
 const ProductShoppingCard = (props: CardShopingCartProps) => {
@@ -33,7 +35,8 @@ const ProductShoppingCard = (props: CardShopingCartProps) => {
                     props.price,
                     props.group,
                     props.name,
-                    props.img
+                    props.img,
+                    props.bestseller
                   )
                 }
               >
@@ -68,10 +71,12 @@ const ProductShoppingCard = (props: CardShopingCartProps) => {
             <strong>{props.name}</strong>{" "}
           </div>
           <div className="carShoppingCart__unit-price">
-            Price by unit: {props.price}
+            Price by unit: {CURRENCY_FORMATTER.format(props.price)}
           </div>
           <div className="carShoppingCart__total-price">
-            <strong>Total price: {totalPrice} </strong>
+            <strong>
+              Total price: {CURRENCY_FORMATTER.format(totalPrice)}{" "}
+            </strong>
           </div>
         </div>
       </div>

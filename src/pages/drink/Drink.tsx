@@ -19,6 +19,7 @@ const Drink = () => {
               portions={""}
               price={item.price}
               group={item.group}
+              bestseller={item.bestseller}
             />
           ))}
         </div>

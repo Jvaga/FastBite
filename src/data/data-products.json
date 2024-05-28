@@ -2,368 +2,408 @@
   "pizzas": [
     {
       "id": 1,
+      "bestseller": true,
       "group": "pizza",
       "name": "Sauerkraut Special",
       "ingredients": "Sauerkraut, Smoked Sausage, Emmental Cheese, Mustard",
       "size": "30 cm",
-      "price": 15000,
+      "price": 15,
       "img": "../assets/pizza.png"
     },
     {
       "id": 2,
+      "bestseller": false,
       "group": "pizza",
       "name": "Kartoffel Deluxe",
       "ingredients": "Potatoes, Pork Sausage, Onion, Gouda Cheese, Parsley",
       "size": "35 cm",
-      "price": 18000,
+      "price": 18,
       "img": "../assets/pizza.png"
     },
     {
       "id": 3,
+      "bestseller": false,
       "group": "pizza",
       "name": "Weisswurst Wonder",
       "ingredients": "Weisswurst Sausage, Sauerkraut, Mozzarella Cheese, Caramelized Onion",
       "size": "30 cm",
-      "price": 16000,
+      "price": 16,
       "img": "../assets/pizza.png"
     },
     {
       "id": 4,
+      "bestseller": false,
       "group": "pizza",
       "name": "Bratwurst Blast",
       "ingredients": "Bratwurst Sausage, Pickles, Fried Onion, Cheddar Cheese",
       "size": "40 cm",
-      "price": 20000,
+      "price": 12,
       "img": "../assets/pizza.png"
     },
     {
       "id": 5,
+      "bestseller": false,
       "group": "pizza",
       "name": "Pretzel Pizza",
       "ingredients": "Frankfurter Sausage, Pretzel, Mustard Sauce, Parmesan Cheese",
       "size": "35 cm",
-      "price": 17000,
+      "price": 17,
       "img": "../assets/pizza.png"
     },
     {
       "id": 6,
+      "bestseller": false,
       "group": "pizza",
       "name": "Black Forest Feast",
       "ingredients": "Ham, Plums, Blue Cheese, Spinach",
       "size": "35 cm",
-      "price": 19000,
+      "price": 14,
       "img": "../assets/pizza.png"
     },
     {
       "id": 7,
+      "bestseller": false,
       "group": "pizza",
       "name": "Berlin Breakfast",
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
-      "price": 16000,
+      "price": 16,
       "img": "../assets/pizza.png"
     },
     {
       "id": 8,
+      "bestseller": true,
       "group": "pizza",
       "name": "Bavarian Breakfast",
       "ingredients": "White Sausage, Camembert Cheese, Apple, Caramelized Onion",
       "size": "40 cm",
-      "price": 20000,
+      "price": 12,
       "img": "../assets/pizza.png"
     },
     {
       "id": 9,
+      "bestseller": true,
       "group": "pizza",
       "name": "German Garden",
       "ingredients": "Asparagus, Brie Cheese, Mushrooms, Spinach, Tomato Sauce",
       "size": "30 cm",
-      "price": 16000,
+      "price": 16,
       "img": "../assets/pizza.png"
     },
     {
       "id": 10,
+      "bestseller": false,
       "group": "pizza",
       "name": "Frankfurt Fusion",
       "ingredients": "Frankfurter Sausage, Curry Sauce, Cauliflower, Onion",
       "size": "35 cm",
-      "price": 17000,
+      "price": 17,
       "img": "../assets/pizza.png"
     },
     {
       "id": 11,
+      "bestseller": false,
       "group": "pizza",
       "name": "Munich Madness",
       "ingredients": "Pork Sausage, Sauerkraut, Raclette Cheese, Mustard",
       "size": "40 cm",
-      "price": 19000,
+      "price": 15,
       "img": "../assets/pizza.png"
     },
     {
       "id": 12,
+      "bestseller": false,
       "group": "pizza",
       "name": "Black Forest Bratwurst",
       "ingredients": "Bratwurst Sausage, Caramelized Onion, Gruyère Cheese, Parsley",
       "size": "30 cm",
-      "price": 15000,
+      "price": 15,
       "img": "../assets/pizza.png"
     },
     {
       "id": 13,
+      "bestseller": false,
       "group": "pizza",
       "name": "Berlin Bratwurst",
       "ingredients": "Bratwurst Sausage, Pickles, Mozzarella Cheese, Fried Onion",
       "size": "35 cm",
-      "price": 18000,
+      "price": 12,
       "img": "../assets/pizza.png"
     },
     {
       "id": 14,
+      "bestseller": false,
       "group": "pizza",
       "name": "Bavarian Barbecue",
       "ingredients": "White Sausage, Sauerkraut, Cheddar Cheese, Barbecue Sauce",
       "size": "40 cm",
-      "price": 20000,
+      "price": 13,
       "img": "../assets/pizza.png"
     },
     {
       "id": 15,
+      "bestseller": false,
       "group": "pizza",
       "name": "Berlin Breakfast",
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
-      "price": 16000,
+      "price": 16,
       "img": "../assets/pizza.png"
     }
   ],
   "hamburgers": [
     {
       "id": 1,
+      "bestseller": true,
       "group": "hamburger",
       "name": "Brat Burger",
       "ingredients": "Pork Meat, Sauerkraut, Mustard, Pickles",
       "size": "",
-      "price": 12000,
+      "price": 12,
       "img": "../assets/hamburger.png"
     },
     {
       "id": 2,
+      "bestseller": true,
       "group": "hamburger",
       "name": "Schnitzel Burger",
       "ingredients": "Chicken Schnitzel, Lettuce, Gouda Cheese, Cranberry Sauce",
       "size": "",
-      "price": 14000,
+      "price": 14,
       "img": "../assets/hamburger.png"
     },
     {
       "id": 3,
+      "bestseller": false,
       "group": "hamburger",
       "name": "Black Forest Burger",
       "ingredients": "Ham, Emmental Cheese, Mushrooms, Tomato Sauce",
       "size": "",
-      "price": 13000,
+      "price": 13,
       "img": "../assets/hamburger.png"
     },
     {
       "id": 4,
+      "bestseller": false,
       "group": "hamburger",
       "name": "Frankfurt Burger",
       "ingredients": "Frankfurter Sausage, Mozzarella Cheese, Fried Onion, Mustard Sauce",
       "size": "",
-      "price": 15000,
+      "price": 15,
       "img": "../assets/hamburger.png"
     },
     {
       "id": 5,
+      "bestseller": true,
       "group": "hamburger",
       "name": "Bavarian Burger",
       "ingredients": "White Sausage, Raclette Cheese, Spinach, Mustard Sauce",
       "size": "",
-      "price": 16000,
+      "price": 16,
       "img": "../assets/hamburger.png"
     }
   ],
   "hotdog": [
     {
       "id": 1,
+      "bestseller": true,
       "group": "hotdog",
       "name": "Currywurst Dog",
       "ingredients": "Currywurst Sausage, Curry Sauce, Fried Onion",
       "size": "",
-      "price": 8000,
+      "price": 8,
       "img": "../assets/hotdog.png"
     },
     {
       "id": 2,
+      "bestseller": true,
       "group": "hotdog",
       "name": "Berlin Dog",
       "ingredients": "Pork Sausage, Sauerkraut, Emmental Cheese, Mustard",
       "size": "",
-      "price": 9000,
+      "price": 9,
       "img": "../assets/hotdog.png"
     },
     {
       "id": 3,
+      "bestseller": false,
       "group": "hotdog",
       "name": "Bavarian Dog",
       "ingredients": "White Sausage, Gouda Cheese, Caramelized Onion, Mustard Sauce",
       "size": "",
-      "price": 10000,
+      "price": 10,
       "img": "../assets/hotdog.png"
     },
     {
       "id": 4,
+      "bestseller": false,
       "group": "hotdog",
       "name": "Munich Dog",
       "ingredients": "Smoked Sausage, Pickles, Mozzarella Cheese, Tomato Sauce",
       "size": "",
-      "price": 11000,
+      "price": 11,
       "img": "../assets/hotdog.png"
     },
     {
       "id": 5,
+      "bestseller": false,
       "group": "hotdog",
       "name": "Schnitzel Dog",
       "ingredients": "Chicken Schnitzel, Lettuce, Cheddar Cheese, Cranberry Sauce",
       "size": "",
-      "price": 12000,
+      "price": 12,
       "img": "../assets/hotdog.png"
     }
   ],
   "beverages": [
     {
       "id": 1,
+      "bestseller": false,
       "group": "beverage",
       "name": "Weißbier",
       "ingredients": "",
       "size": "500 ml",
-      "price": 5000,
+      "price": 5,
       "img": "../assets/drinks.png"
     },
     {
       "id": 2,
+      "bestseller": false,
       "group": "beverage",
       "name": "Apfelschorle",
       "ingredients": "",
       "size": "300 ml",
-      "price": 3000,
+      "price": 3,
       "img": "../assets/drinks.png"
     },
     {
       "id": 3,
+      "bestseller": false,
       "group": "beverage",
       "name": "Radler",
       "ingredients": "",
       "size": "500 ml",
-      "price": 4000,
+      "price": 4,
       "img": "../assets/drinks.png"
     },
     {
       "id": 4,
+      "bestseller": false,
       "group": "beverage",
       "name": "Erdbeerbowle",
       "ingredients": "",
       "size": "1 L",
-      "price": 6000,
+      "price": 6,
       "img": "../assets/drinks.png"
     },
     {
       "id": 5,
+      "bestseller": false,
       "group": "beverage",
       "name": "Glühwein",
       "ingredients": "",
       "size": "200 ml",
-      "price": 3500,
+      "price": 3.5,
       "img": "../assets/drinks.png"
     },
     {
       "id": 6,
+      "bestseller": false,
       "group": "beverage",
       "name": "Apfelwein",
       "ingredients": "",
       "size": "500 ml",
-      "price": 4500,
+      "price": 4.5,
       "img": "../assets/drinks.png"
     },
     {
       "id": 7,
+      "bestseller": false,
       "group": "beverage",
       "name": "Kirschsaft",
       "ingredients": "",
       "size": "300 ml",
-      "price": 2500,
+      "price": 2.5,
       "img": "../assets/drinks.png"
     },
     {
       "id": 8,
+      "bestseller": false,
       "group": "beverage",
       "name": "Holunderblütensirup",
       "ingredients": "",
       "size": "500 ml",
-      "price": 3500,
+      "price": 3,
       "img": "../assets/drinks.png"
     },
     {
       "id": 9,
+      "bestseller": false,
       "group": "beverage",
       "name": "Berliner Weiße",
       "ingredients": "",
       "size": "330 ml",
-      "price": 2800,
+      "price": 2.5,
       "img": "../assets/drinks.png"
     },
     {
       "id": 10,
+      "bestseller": false,
       "group": "beverage",
       "name": "Mate",
       "ingredients": "",
       "size": "500 ml",
-      "price": 4000,
+      "price": 3,
       "img": "../assets/drinks.png"
     },
     {
       "id": 11,
+      "bestseller": false,
       "group": "beverage",
       "name": "Rhubarb Juice",
       "ingredients": "",
       "size": "300 ml",
-      "price": 3000,
+      "price": 3,
       "img": "../assets/drinks.png"
     },
     {
       "id": 12,
+      "bestseller": false,
       "group": "beverage",
       "name": "Sekt",
       "ingredients": "",
       "size": "750 ml",
-      "price": 5500,
+      "price": 5,
       "img": "../assets/drinks.png"
     },
     {
       "id": 13,
+      "bestseller": false,
       "group": "beverage",
       "name": "Kölsch",
       "ingredients": "",
       "size": "500 ml",
-      "price": 4000,
+      "price": 4,
       "img": "../assets/drinks.png"
     },
     {
       "id": 14,
+      "bestseller": false,
       "group": "beverage",
       "name": "Herbal Liqueur",
       "ingredients": "",
       "size": "50 ml",
-      "price": 2000,
+      "price": 2,
       "img": "../assets/drinks.png"
     },
     {
       "id": 15,
+      "bestseller": false,
       "group": "beverage",
       "name": "Wine Spritzer",
       "ingredients": "",
       "size": "500 ml",
-      "price": 4500,
+      "price": 4,
       "img": "../assets/drinks.png"
     }
   ]

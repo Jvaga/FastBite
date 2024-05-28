@@ -4,6 +4,7 @@ import { FaMinus } from "react-icons/fa";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../../../context/ShoppingCartContext";
+import { CURRENCY_FORMATTER } from "../../../utilities/formatCurrency";
 
 interface CardProps {
   id: number;
@@ -13,6 +14,7 @@ interface CardProps {
   portions: string;
   price: number;
   group: string;
+  bestseller: boolean;
 }
 
 const ProductCard = (props: CardProps) => {
@@ -40,7 +42,7 @@ const ProductCard = (props: CardProps) => {
             </p>
             <p className="card__price">
               <strong>Price: </strong>
-              {props.price}
+              {CURRENCY_FORMATTER.format(props.price)}
             </p>
           </div>
           <div className="card__controls">
@@ -58,7 +60,8 @@ const ProductCard = (props: CardProps) => {
                   props.price,
                   props.group,
                   props.name,
-                  props.img
+                  props.img,
+                  props.bestseller
                 )
               }
             >

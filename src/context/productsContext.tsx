@@ -7,6 +7,7 @@ export interface ProviderProps {
 
 export interface Pizza {
   id: number;
+  bestseller: boolean;
   group: string;
   name: string;
   ingredients: string;
@@ -17,6 +18,7 @@ export interface Pizza {
 
 export interface Hamburger {
   id: number;
+  bestseller: boolean;
   group: string;
   name: string;
   ingredients: string;
@@ -27,6 +29,7 @@ export interface Hamburger {
 
 export interface HotDog {
   id: number;
+  bestseller: boolean;
   group: string;
   name: string;
   ingredients: string;
@@ -37,6 +40,7 @@ export interface HotDog {
 
 export interface Beverage {
   id: number;
+  bestseller: boolean;
   group: string;
   name: string;
   ingredients: string;

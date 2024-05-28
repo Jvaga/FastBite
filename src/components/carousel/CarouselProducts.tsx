@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import "./CarouselProducts.scss";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
+import { CURRENCY_FORMATTER } from "../../utilities/formatCurrency";
+
 import {
   Pizza,
   Hamburger,
@@ -31,26 +33,22 @@ type MenuItem = Pizza | Hamburger | HotDog | Beverage;
 
 type CarouselProps = {
   data: MenuItem[];
+  title: string;
+  link: boolean;
+  page: string;
 };
 
 const CarouselProducts = (props: CarouselProps) => {
-  const pizza = props.data;
-  const group = pizza.length > 0 ? pizza[0].group : "No group";
+  const data = props.data;
 
-  function capitalizeFirstLetter(str: string): string {
-    const capitalizedString = str.charAt(0).toUpperCase() + str.slice(1);
-    return capitalizedString + "s";
-  }
-
-  const checkIfDrink = group == "beverage" ? "drink" : group;
   return (
     <section className="carousel">
       <div className="carousel__container">
         <div className="carousel__text">
-          <h2 className="h2">{capitalizeFirstLetter(group)}</h2>
+          <h2 className="h2">{props.title}</h2>
         </div>
         <Carousel responsive={responsive} infinite={true} autoPlay={true}>
-          {pizza.map((item, i) => (
+          {data.map((item, i) => (
             <div key={i} className="carousel__card">
               <div className="carousel__img">
                 <img src={item.img} alt={item.name} />
@@ -77,23 +75,25 @@ const CarouselProducts = (props: CarouselProps) => {
                   )}
                   <p className="carousel__price">
                     <strong>Price: </strong>
-                    {item.price}
+                    {CURRENCY_FORMATTER.format(item.price)}
                   </p>
                 </div>
               </div>
             </div>
           ))}
         </Carousel>
-        <div className="carousel__btn">
-          <NavLink
-            to={`../${checkIfDrink}`}
-            onClick={() => window.scrollTo(0, 0)}
-          >
-            <button className="button-primary">
-              Go to {capitalizeFirstLetter(group)}
-            </button>
-          </NavLink>
-        </div>
+        {props.link ? (
+          <div className="carousel__btn">
+            <NavLink
+              to={`../${props.page}`}
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              <button className="button-primary">Go to {props.title}</button>
+            </NavLink>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </section>
   );

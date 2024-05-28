@@ -21,6 +21,7 @@ const Pizza = () => {
               portions={""}
               price={item.price}
               group={item.group}
+              bestseller={item.bestseller}
             />
           ))}
         </div>
@@ -28,7 +29,12 @@ const Pizza = () => {
 
       <div className="pizza__complement-meal">
         <h2 className="pizza__title">Complement to your meal</h2>
-        <CarouselProducts data={data.data.hamburgers} />
+        <CarouselProducts
+          data={data.data.beverages}
+          title={"Drinks"}
+          link={true}
+          page={"drink"}
+        />
       </div>
     </section>
   );
