@@ -27,7 +27,7 @@ function App() {
               <Route path="hotdog" element={<Hotdog />} />
               <Route path="pizza" element={<Pizza />} />
               <Route path="drink" element={<Drink />} />
-              <Route path="product-view/:group/:id" element={<ProductView />} />
+              <Route path="product-view/:id" element={<ProductView />} />
             </Routes>
           </div>
           <ShoppingCart />

@@ -72,7 +72,8 @@ const ProductCard = (props: CardProps) => {
             <NavLink
               className={"card__link"}
               onClick={() => window.scrollTo(0, 0)}
-              to={`/product-view/${props.group}/${props.id}`}
+              to={{ pathname: `/product-view/${props.group}` }}
+              state={`${props.id}/${props.group}`}
             >
               <p>See more...</p>
             </NavLink>

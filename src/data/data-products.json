@@ -3,7 +3,7 @@
     {
       "id": 1,
       "bestseller": true,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Sauerkraut Special",
       "ingredients": "Sauerkraut, Smoked Sausage, Emmental Cheese, Mustard",
       "size": "30 cm",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Kartoffel Deluxe",
       "ingredients": "Potatoes, Pork Sausage, Onion, Gouda Cheese, Parsley",
       "size": "35 cm",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Weisswurst Wonder",
       "ingredients": "Weisswurst Sausage, Sauerkraut, Mozzarella Cheese, Caramelized Onion",
       "size": "30 cm",
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Bratwurst Blast",
       "ingredients": "Bratwurst Sausage, Pickles, Fried Onion, Cheddar Cheese",
       "size": "40 cm",
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Pretzel Pizza",
       "ingredients": "Frankfurter Sausage, Pretzel, Mustard Sauce, Parmesan Cheese",
       "size": "35 cm",
@@ -53,7 +53,7 @@
     {
       "id": 6,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Black Forest Feast",
       "ingredients": "Ham, Plums, Blue Cheese, Spinach",
       "size": "35 cm",
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Berlin Breakfast",
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
@@ -73,7 +73,7 @@
     {
       "id": 8,
       "bestseller": true,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Bavarian Breakfast",
       "ingredients": "White Sausage, Camembert Cheese, Apple, Caramelized Onion",
       "size": "40 cm",
@@ -83,7 +83,7 @@
     {
       "id": 9,
       "bestseller": true,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "German Garden",
       "ingredients": "Asparagus, Brie Cheese, Mushrooms, Spinach, Tomato Sauce",
       "size": "30 cm",
@@ -93,7 +93,7 @@
     {
       "id": 10,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Frankfurt Fusion",
       "ingredients": "Frankfurter Sausage, Curry Sauce, Cauliflower, Onion",
       "size": "35 cm",
@@ -103,7 +103,7 @@
     {
       "id": 11,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Munich Madness",
       "ingredients": "Pork Sausage, Sauerkraut, Raclette Cheese, Mustard",
       "size": "40 cm",
@@ -113,7 +113,7 @@
     {
       "id": 12,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Black Forest Bratwurst",
       "ingredients": "Bratwurst Sausage, Caramelized Onion, Gruyère Cheese, Parsley",
       "size": "30 cm",
@@ -123,7 +123,7 @@
     {
       "id": 13,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Berlin Bratwurst",
       "ingredients": "Bratwurst Sausage, Pickles, Mozzarella Cheese, Fried Onion",
       "size": "35 cm",
@@ -133,7 +133,7 @@
     {
       "id": 14,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Bavarian Barbecue",
       "ingredients": "White Sausage, Sauerkraut, Cheddar Cheese, Barbecue Sauce",
       "size": "40 cm",
@@ -143,7 +143,7 @@
     {
       "id": 15,
       "bestseller": false,
-      "group": "pizza",
+      "group": "pizzas",
       "name": "Berlin Breakfast",
       "ingredients": "Egg, Smoked Sausage, Tomato, Feta Cheese, Basil",
       "size": "30 cm",
@@ -155,7 +155,7 @@
     {
       "id": 1,
       "bestseller": true,
-      "group": "hamburger",
+      "group": "hamburgers",
       "name": "Brat Burger",
       "ingredients": "Pork Meat, Sauerkraut, Mustard, Pickles",
       "size": "",
@@ -165,7 +165,7 @@
     {
       "id": 2,
       "bestseller": true,
-      "group": "hamburger",
+      "group": "hamburgers",
       "name": "Schnitzel Burger",
       "ingredients": "Chicken Schnitzel, Lettuce, Gouda Cheese, Cranberry Sauce",
       "size": "",
@@ -175,7 +175,7 @@
     {
       "id": 3,
       "bestseller": false,
-      "group": "hamburger",
+      "group": "hamburgers",
       "name": "Black Forest Burger",
       "ingredients": "Ham, Emmental Cheese, Mushrooms, Tomato Sauce",
       "size": "",
@@ -185,7 +185,7 @@
     {
       "id": 4,
       "bestseller": false,
-      "group": "hamburger",
+      "group": "hamburgers",
       "name": "Frankfurt Burger",
       "ingredients": "Frankfurter Sausage, Mozzarella Cheese, Fried Onion, Mustard Sauce",
       "size": "",
@@ -195,7 +195,7 @@
     {
       "id": 5,
       "bestseller": true,
-      "group": "hamburger",
+      "group": "hamburgers",
       "name": "Bavarian Burger",
       "ingredients": "White Sausage, Raclette Cheese, Spinach, Mustard Sauce",
       "size": "",
@@ -259,7 +259,7 @@
     {
       "id": 1,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Weißbier",
       "ingredients": "",
       "size": "500 ml",
@@ -269,7 +269,7 @@
     {
       "id": 2,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Apfelschorle",
       "ingredients": "",
       "size": "300 ml",
@@ -279,7 +279,7 @@
     {
       "id": 3,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Radler",
       "ingredients": "",
       "size": "500 ml",
@@ -289,7 +289,7 @@
     {
       "id": 4,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Erdbeerbowle",
       "ingredients": "",
       "size": "1 L",
@@ -299,7 +299,7 @@
     {
       "id": 5,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Glühwein",
       "ingredients": "",
       "size": "200 ml",
@@ -309,7 +309,7 @@
     {
       "id": 6,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Apfelwein",
       "ingredients": "",
       "size": "500 ml",
@@ -319,7 +319,7 @@
     {
       "id": 7,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Kirschsaft",
       "ingredients": "",
       "size": "300 ml",
@@ -329,7 +329,7 @@
     {
       "id": 8,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Holunderblütensirup",
       "ingredients": "",
       "size": "500 ml",
@@ -339,7 +339,7 @@
     {
       "id": 9,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Berliner Weiße",
       "ingredients": "",
       "size": "330 ml",
@@ -349,7 +349,7 @@
     {
       "id": 10,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Mate",
       "ingredients": "",
       "size": "500 ml",
@@ -359,7 +359,7 @@
     {
       "id": 11,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Rhubarb Juice",
       "ingredients": "",
       "size": "300 ml",
@@ -369,7 +369,7 @@
     {
       "id": 12,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Sekt",
       "ingredients": "",
       "size": "750 ml",
@@ -379,7 +379,7 @@
     {
       "id": 13,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Kölsch",
       "ingredients": "",
       "size": "500 ml",
@@ -389,7 +389,7 @@
     {
       "id": 14,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Herbal Liqueur",
       "ingredients": "",
       "size": "50 ml",
@@ -399,7 +399,7 @@
     {
       "id": 15,
       "bestseller": false,
-      "group": "beverage",
+      "group": "beverages",
       "name": "Wine Spritzer",
       "ingredients": "",
       "size": "500 ml",

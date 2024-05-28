@@ -1,0 +1,117 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/colors";
+
+.productView {
+  margin-top: 2rem;
+  h2 {
+    text-align: center;
+    margin-block: 1rem 2rem;
+  }
+  &__details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    @include respond(tab-land) {
+      display: block;
+    }
+  }
+  &__img {
+    width: 40%;
+
+    display: flex;
+    justify-content: end;
+    img {
+      width: 500px;
+      object-fit: cover;
+      aspect-ratio: 1/1;
+      margin-right: 2rem;
+    }
+
+    @include respond(tab-land) {
+      width: 100%;
+      img {
+        width: 500px;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        margin: auto;
+      }
+    }
+
+    @include respond(phone) {
+      width: 100%;
+      img {
+        width: 300px;
+      }
+    }
+  }
+
+  &__info-wrapper {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 2rem;
+
+    @include respond(tab-land) {
+      margin-top: 2rem;
+      margin-inline: auto;
+      width: 60%;
+    }
+
+    @include respond(phone) {
+      margin-top: 2rem;
+      width: 80%;
+    }
+  }
+
+  &__info {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    @include respond(tab-land) {
+      margin: auto;
+    }
+  }
+
+  &__ingredients {
+    width: 74%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+
+    h3 {
+      margin-block: 1rem;
+    }
+  }
+
+  &__controls {
+    margin-block: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 0.5rem;
+
+    button {
+      background-color: map-get($background-color, primary-red);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2rem;
+      height: 2rem;
+      @include respond(phone) {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+    span {
+      text-align: center;
+      width: fit-content;
+    }
+  }
+  &__fa {
+    font-size: 15px;
+  }
+}
