@@ -1,0 +1,70 @@
+@import "../../styles/colors";
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-image: url("assets/hero/background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+  &__image-delivery {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    left: 38%;
+    top: 10%;
+  }
+  &__image-hamburger {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    left: 10%;
+    top: 10%;
+  }
+  &__image-pizza {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    right: 10%;
+    top: 10%;
+  }
+
+  &__content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: map-get($text-color, primary-red);
+  }
+
+  &__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    width: 10rem;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: map-get($text-color, primary-white);
+    background-color: map-get($background-color, primary-red);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

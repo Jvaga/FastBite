@@ -1,0 +1,11 @@
+.home {
+  &__bestsellers {
+    margin-block: 2rem;
+  }
+
+  &__title {
+    width: fit-content;
+    margin: auto;
+    margin-block: 1rem 2rem;
+  }
+}

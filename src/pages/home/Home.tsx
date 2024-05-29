@@ -1,4 +1,6 @@
+import "./Home.scss";
 import CarouselProducts from "../../components/carousel/CarouselProducts";
+import Hero from "../../components/hero/Hero";
 import { useDataProducts } from "../../context/ProductsContext";
 const Home = () => {
   const data = useDataProducts();
@@ -20,9 +22,10 @@ const Home = () => {
   const randombestsellersArray = bestsellersArray.sort(randomComparator);
 
   return (
-    <div>
-      Home
-      <div>
+    <section className="home">
+      <Hero />
+      <div className="home__bestsellers">
+        <h2 className="home__title">Favourite meals of our customers</h2>
         <CarouselProducts
           data={randombestsellersArray}
           title={"Bestsellers"}
@@ -30,7 +33,7 @@ const Home = () => {
           page={""}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
