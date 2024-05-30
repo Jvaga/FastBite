@@ -10,6 +10,8 @@ import {
   HotDog,
   Beverage,
 } from "../../context/ProductsContext";
+import { motion } from "framer-motion";
+import CarouselHook from "../../hooks/carouselHook";
 
 const responsive = {
   superLargeDesktop: {
@@ -40,6 +42,7 @@ type CarouselProps = {
 
 const CarouselProducts = (props: CarouselProps) => {
   const data = props.data;
+  const { variants } = CarouselHook();
 
   return (
     <section className="carousel">
@@ -49,7 +52,13 @@ const CarouselProducts = (props: CarouselProps) => {
         </div>
         <Carousel responsive={responsive} infinite={true} autoPlay={true}>
           {data.map((item, i) => (
-            <div key={i} className="carousel__card">
+            <motion.div
+              key={i}
+              className="carousel__card"
+              variants={variants}
+              initial="initial"
+              whileInView="animate"
+            >
               <div className="carousel__img">
                 <img src={item.img} alt={item.name} />
               </div>
@@ -79,7 +88,7 @@ const CarouselProducts = (props: CarouselProps) => {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </Carousel>
         {props.link ? (

@@ -1,7 +1,14 @@
+import { motion } from "framer-motion";
 import "./Hero.scss";
 import { NavLink } from "react-router-dom";
+import HeroHook from "../../hooks/heroHook";
+
+const title = "Welcome to FastBite";
 
 const Hero = () => {
+  const text = title.split("");
+  const { variantsTitle, variantsP, variantsBtn } = HeroHook();
+
   return (
     <section className="hero">
       <img
@@ -20,15 +27,42 @@ const Hero = () => {
         className="hero__image-pizza"
       />
       <div className="hero__content">
-        <h1 className="hero__title">Welcome to FastBite</h1>
-        <p className="hero__subtitle">Delicious Fast Food, Delivered Fast</p>
-        <NavLink
-          className="hero__button"
-          to="menu"
-          onClick={() => window.scrollTo(0, 0)}
+        <motion.h1 className="hero__title">
+          {text.map((item, i) => (
+            <motion.span
+              key={i}
+              variants={variantsTitle}
+              initial="hidden"
+              whileInView="reveal"
+              custom={i}
+              viewport={{ once: true }}
+            >
+              {item}
+            </motion.span>
+          ))}
+        </motion.h1>
+        <motion.p
+          className="hero__subtitle"
+          variants={variantsP}
+          initial="start"
+          whileInView="animate"
+          viewport={{ once: true }}
         >
-          Order Now
-        </NavLink>
+          Delicious Fast Food, Delivered Fast
+        </motion.p>
+        <motion.button
+          className="hero__button"
+          variants={variantsBtn}
+          whileHover="animate"
+        >
+          <NavLink
+            className="hero__button"
+            to="menu"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Order Now
+          </NavLink>
+        </motion.button>
       </div>
     </section>
   );
