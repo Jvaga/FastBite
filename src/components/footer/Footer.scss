@@ -1,0 +1,68 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/colors";
+
+.footer {
+  z-index: 1000;
+  background-color: map-get($background-color, primary-red);
+
+  &__container {
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    @include respond(phone) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__flex {
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+    @include respond(phone) {
+      width: 90%;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include respond(phone) {
+      margin: 1rem;
+    }
+  }
+
+  li {
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: center;
+    color: map-get($text-color, primary-white);
+    line-height: 1;
+  }
+
+  a {
+    cursor: pointer;
+  }
+  span {
+    color: map-get($text-color, primary-white);
+    display: block;
+    transition: ease 0.5s;
+  }
+  &__social {
+    width: 30%;
+
+    @include respond(tab-port) {
+      width: 50%;
+    }
+
+    @include respond(phone) {
+      display: flex;
+      text-align: center;
+      width: 80%;
+    }
+  }
+}

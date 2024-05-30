@@ -12,6 +12,7 @@ import { ProviderProducts } from "./context/ProductsContext";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import ShoppingCart from "./components/shoppingCart/ShoppingCart";
 import CanvasShopping from "./components/canvasShopping/CanvasShopping";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <CanvasShopping />
         </ShoppingCartProvider>
       </ProviderProducts>
+      <Footer />
     </section>
   );
 }

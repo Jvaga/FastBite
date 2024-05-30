@@ -2,24 +2,12 @@ import "./Home.scss";
 import CarouselProducts from "../../components/carousel/CarouselProducts";
 import Hero from "../../components/hero/Hero";
 import { useDataProducts } from "../../context/ProductsContext";
+
+import { getBestsellers } from "../../utilities/getBestsellers";
 const Home = () => {
   const data = useDataProducts();
 
-  const bestsellers = [
-    data.data.beverages.filter((item) => item.bestseller),
-    data.data.hamburgers.filter((item) => item.bestseller),
-    data.data.pizzas.filter((item) => item.bestseller),
-    data.data.hotdog.filter((item) => item.bestseller),
-  ];
-
-  const bestsellersArray = bestsellers.reduce(
-    (acc, curr) => acc.concat(curr),
-    []
-  );
-
-  const randomComparator = () => Math.random() - 0.5;
-
-  const randombestsellersArray = bestsellersArray.sort(randomComparator);
+  const bestseller = getBestsellers(data.data);
 
   return (
     <section className="home">
@@ -27,7 +15,7 @@ const Home = () => {
       <div className="home__bestsellers">
         <h2 className="home__title">Favourite meals of our customers</h2>
         <CarouselProducts
-          data={randombestsellersArray}
+          data={bestseller}
           title={"Bestsellers"}
           link={false}
           page={""}

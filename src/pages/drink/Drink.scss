@@ -2,6 +2,11 @@
 
 .drinks {
   padding-block: 1rem 1rem;
+  &__title {
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 2rem;
+  }
 
   &__grid {
     display: grid;
@@ -11,5 +16,9 @@
     @include respond(tab-port) {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+  }
+
+  &__complement-meal {
+    margin-block: 2rem;
   }
 }

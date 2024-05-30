@@ -1,6 +1,12 @@
 @import "../../styles/mixins.scss";
 
 .menu {
+  &__title {
+    width: fit-content;
+    margin: auto;
+    margin-block: 2rem;
+  }
+
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

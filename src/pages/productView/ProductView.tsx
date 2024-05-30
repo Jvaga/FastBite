@@ -53,7 +53,7 @@ const ProductView = () => {
                 <h3>{foundProduct?.name}</h3>
               </div>
               <div>
-                Precio:{" "}
+                Price:
                 {CURRENCY_FORMATTER.format(
                   foundProduct?.price !== undefined ? foundProduct?.price : 0
                 )}
@@ -75,7 +75,7 @@ const ProductView = () => {
                 >
                   <FaMinus className="productView__fa" color="#f1c231" />
                 </button>
-                <span>cantidad {quantity}</span>
+                <span>Quantity {quantity}</span>
 
                 <button
                   onClick={() =>
@@ -96,7 +96,7 @@ const ProductView = () => {
           </div>
         </div>
         <div className="productView__ingredients">
-          <h2>Ingredientes</h2>
+          <h2>Ingredients</h2>
           {foundProduct?.ingredients}
         </div>
       </div>

@@ -42,7 +42,7 @@ const Navbar = () => {
                 to="menu"
                 onClick={() => window.scrollTo(0, 0)}
               >
-                Menú
+                Menu
               </NavLink>
               {showDropdown && <Dropdown />}
             </li>
