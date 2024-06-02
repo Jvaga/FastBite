@@ -2,9 +2,13 @@ import "./Hotdog.scss";
 import ProductCard from "../../components/cards/productCard/ProductCard";
 import { useDataProducts } from "../../context/ProductsContext";
 import CarouselProducts from "../../components/carousel/CarouselProducts";
+import ProductHook from "../../hooks/productHook";
+import { motion } from "framer-motion";
 
 const Hotdog = () => {
   const data = useDataProducts();
+  const { variants } = ProductHook();
+
   return (
     <section className="hotdog">
       <h2 className="hotdog__title"> hotdog</h2>
@@ -12,17 +16,26 @@ const Hotdog = () => {
       <div>
         <div className="hotdog__grid">
           {data.data.hotdog.map((item, i) => (
-            <ProductCard
+            <motion.div
               key={i}
-              id={item.id}
-              img={item.img}
-              name={item.name}
-              ingredients={item.ingredients}
-              portions={""}
-              price={item.price}
-              group={item.group}
-              bestseller={item.bestseller}
-            />
+              variants={variants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+              custom={i}
+            >
+              <ProductCard
+                key={i}
+                id={item.id}
+                img={item.img}
+                name={item.name}
+                ingredients={item.ingredients}
+                portions={""}
+                price={item.price}
+                group={item.group}
+                bestseller={item.bestseller}
+              />
+            </motion.div>
           ))}
         </div>
         <div className="hotdog__complement-meal">
