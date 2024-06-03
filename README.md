@@ -10,11 +10,11 @@ Make sure you have Node.js installed on your system before proceeding.
 
 1. Clone this repository:
 
-git clone
+git clone https://github.com/Jvaga/FastBite.git
 
 2. Navigate to the project directory:
 
-cd
+cd FastBite
 
 3. Install the dependencies:
 
