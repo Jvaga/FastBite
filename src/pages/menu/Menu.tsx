@@ -17,16 +17,12 @@ const Menu = () => {
       <div className="menu__grid">
         {dataMenu.map((item, i) => (
           <motion.div
+            key={i}
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <MenuProducts
-              key={i}
-              name={item.name}
-              img={item.img}
-              link={item.link}
-            />
+            <MenuProducts name={item.name} img={item.img} link={item.link} />
           </motion.div>
         ))}
       </div>
